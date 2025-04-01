@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form and Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to  Mwaniqi's Website</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>About Mwaniqi</h2>
+        <ol type="I">
+            <li>My Dream car is a Subaru WRX/STI</li>
+            <li>I love CafeRacers</li>
+            <li>I Have Three Dogs</li>
+            <li>Love Fast Life and Cars</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Our Latest Image</h2>
+        <img src="https://images.pexels.com/photos/700498/pexels-photo-700498.jpeg" alt="Beautiful Scenery" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Information</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alex Mwangi</td>
+                    <td>123 Main St, Clifftopestate</td>
+                    <td>123-456-78910</td>
+                    <td>alexmwangi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Mwangi</td>
+                    <td>456 Oak Ave, Muchatha</td>
+                    <td>987-654-3210</td>
+                    <td>janemwangi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Caroline Mwangi</td>
+                    <td>789 Pine Blvd, Banana</td>
+                    <td>555-123-4567</td>
+                    <td>carolinem@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Mwangi</td>
+                    <td>101 Maple Rd, Ruaka</td>
+                    <td>321-654-9870</td>
+                    <td>michaelm@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Amy Mwangi</td>
+                    <td>202 Cedar Ln, Ndenderu</td>
+                    <td>654-321-4321</td>
+                    <td>amym@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post" id="registration-form">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown Field -->
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="">Select a city</option>
+                <option value="us">Kanairo</option>
+                <option value="ca">Kiambu</option>
+                <option value="uk">Kikuyu</option>
+                <option value="au">Eastland</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label for="interests">Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Mwaniqi's Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
